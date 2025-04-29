@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khistory - Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- link CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- nav -->
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="logo">
+            <a href="index.html">
+              <h1>Khistory</h1>
+            </a>
+          </div>
+
+          <!-- nav-center -->
+          <div class="responsive-nav">
+            <!-- nav-center (Navigation links) -->
+            <ul class="nav-center">
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="timeline.html">Historical Timeline</a></li>
+              <li><a href="figures.html">Notable Figures</a></li>
+              <li><a href="wars.html">Wars and Conflicts</a></li>
+            </ul>
+
+            <!-- right-nav (Search and user icon) -->
+            <div class="nav-right">
+              <div class="search-box">
+                <input type="text" placeholder="Search..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="user">
+                <i class="fa-solid fa-user"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- hamburger icon for mobile view -->
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+      <h1>Khistory</h1>
+      <p class="tagline">Journey into Cambodia’s Storied Past</p>
+      <div class="hero-buttons">
+        <a href="index.html" class="btn-primary" id="btn1">Discover History</a>
+        <a href="timeline.html" class="btn-primary" id="btn2">View Timeline</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero-angkor.jpg" alt="Angkor-wat" />
+      </div>
+    </section>
+
+    <!-- Historical overview -->
+    <section class="historical-overview">
+      <h2>Historical Overview</h2>
+      <div class="cards">
+        <!-- Angkor Period -->
+        <div class="card">
+          <img src="images/temple-angkor-wat.jpg" alt="Angkor Period" />
+          <h3>Angkor Period</h3>
+          <p>9th to 15th century, marked by Khmer Empire’s peak.</p>
+          <p class="subtext">
+            Renowned for architectural wonders like Angkor Wat.
+          </p>
+          <a href="#" class="learn-more-btn">Learn More</a>
+        </div>
+
+        <!-- Post-Angkor Era -->
+        <div class="card">
+          <img src="images/post-angkor-era.jpg" alt="Post-Angkor Era" />
+          <h3>Post-Angkor Era</h3>
+          <p>15th to 19th century, decline of the Khmer Empire.</p>
+          <p class="subtext">Rise of Theravada Buddhism in Cambodia.</p>
+          <a href="#" class="learn-more-btn">Learn More</a>
+        </div>
+
+        <!-- Colonial Period -->
+        <div class="card">
+          <img src="images/colonial-period.jpg" alt="Colonial Period" />
+          <h3>Colonial Period</h3>
+          <p>1863 to 1953, Cambodia under French rule.</p>
+          <p class="subtext">Influence of European culture and governance.</p>
+          <a href="#" class="learn-more-btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Articles -->
+    <section class="featured-articles">
+      <h2>Featured Articles</h2>
+      <div class="feature-cards">
+        <!-- Angkor Period -->
+        <div class="feature-card">
+          <img src="images/temple-angkor-wat.jpg" alt="Angkor Period" />
+          <div class="card-text">
+            <h3>Angkor Wat</h3>
+            <p>
+              Exploring the grandeur of Angkor Wat, Cambodia's iconic temple.
+            </p>
+            <p>
+              Built in the 12th century. Angkor Wat is the largest religious
+              monument in the world. <br />
+              It was originally constructed as a Hindu temple dedicated to the
+              god Vishnu, <br />
+              but later transformed into a Buddhisttemple.
+            </p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+
+        <!-- khmer culture -->
+        <div class="feature-card">
+          <img src="images/khmer-culture.jpg" alt="khmer-culture" />
+          <div class="card-text">
+            <h3>Khmer Culture</h3>
+            <p>Discover the rich tapestry of Khmer culture and traditions.</p>
+            <p>
+              The Khmer culture is a blend of indigenous beliefs and practices,
+              <br />
+              influenced by Hinduism and Buddhism. <br />
+              It is characterized by its unique art, architecture, and
+              traditions.
+            </p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Colonial Period -->
+        <div class="feature-card">
+          <img src="images/toul-sleng.jpg" alt="Toul Sleng prison" />
+          <div class="card-text">
+            <h3>Tuol Sleng</h3>
+            <p>
+              A haunting reminder of Cambodia's tragic past during the Khmer
+              Rouge.
+            </p>
+            <p>
+              The S21 Museum, also known as Tuol Sleng, is a former prison.
+              <br />
+              It was used by the Khmer Rouge regime from 1975 to 1979. <br />
+              The museum serves as a memorial to the victims of the regime.
+            </p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h2 class="logo">Khistory</h2>
+          <p>&copy; 2023 Khistory. All rights reserved.</p>
+          <ul class="social-media">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const responsiveNav = document.querySelector(".responsive-nav");
+
+      hamburger.addEventListener("click", () => {
+        responsiveNav.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
